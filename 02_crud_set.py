@@ -13,9 +13,11 @@ print('peru esta en el conjunto ', 'pe' in set_countries)
 print('antes update',set_countries)
 #actualizar un conjunto con update
 set_countries.update({'arg', 'bol', 'urg', 'cl'})
-
+set_countries_all = set_countries.update({'arg', 'bol', 'urg', 'cl'})
 print('despues update',set_countries)
 
 #print('remove ',set_countries.remove('ar'))
 print('discard ',set_countries.discard('arg'))
 print('despues del discard',set_countries)
+
+print('union',set_countries_all)
