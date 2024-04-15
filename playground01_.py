@@ -1,3 +1,4 @@
+import 
 countries = {"MX", "COL", "ARG", "USA"}
 northAm = {"USA", "CANADA"}
 centralAm = {"MX", "GT", "BZ"}
