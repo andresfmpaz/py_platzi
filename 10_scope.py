@@ -1,0 +1,12 @@
+price = 100 # global inside the file
+
+def increment():
+    price = 200
+    price = price + 10
+    print(price)
+    return price
+    
+print(price)
+
+price_2 = increment()
+print('price2', price_2)
