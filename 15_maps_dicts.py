@@ -27,8 +27,13 @@ items = [
 prices = list(map(lambda item: item['price']+10, items))
 print('new prices  ', prices)
 
-# lets add new element to each item
 
+new_items_v1 = list(map( lambda x: x|{'tax': x['price']*0.19} ,items)) 
+
+print(items)
+print(new_items_v1)
+
+# lets add new element to each item
 def add_taxes(item):
     item['taxes'] = item['price'] * 19
     return item
@@ -40,3 +45,4 @@ print('new items with taxes ', new_items)
 print('old items ', items)
 
 print(items == new_items)
+

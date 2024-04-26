@@ -26,3 +26,4 @@ hof_3 = lambda x , y , func : x + ' ' + y +'  function value  - > '+func(x, y)
 result = hof_3('sivio', 'rodriguez', lambda x, y : x.upper()+ ' ' + y.upper())
 
 print('hof with text  ', result)
+
