@@ -19,7 +19,7 @@ result = functools.reduce(acum, numbers)
 
 print(result)
 
-def acum_1(counter = 10, item):
+def acum_1(counter, item):
     print('counter -> ',counter)
     print('item -> ',item)
     return counter - item
